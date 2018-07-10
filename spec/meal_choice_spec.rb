@@ -13,6 +13,9 @@ describe "#snacks" do
 
 end
 
+
+
+
 describe "#breakfast" do 
 
   it 'Returns the argument interpolated in the string' do
@@ -49,3 +52,17 @@ describe "#dinner" do
 
 end
 
+def breakfast(meal_choice = "Frosted Flakes")
+  puts "Morning is the best time for #{meal_choice}."
+end
+breakfast
+
+def lunch(meal_choice = "Grilled cheese")
+  puts "Midday is the best time for #{meal_choice}."
+end
+lunch
+
+def dinner(meal_choice = "Salmon")
+  puts "The evening is the best time for #{meal_choice}."
+end
+dinner
